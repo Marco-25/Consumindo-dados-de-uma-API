@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c518c8-d91b-41db-a14d-da2dec9975d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/clientes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/doguinho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/clientes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/api/clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/clientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cadastro-clientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/cadastro-clientes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/listar-clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/listar-clientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-petshop/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/server-petshop/database.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609782172204</updated>
-      <workItem from="1609782173301" duration="12203000" />
+      <workItem from="1609782173301" duration="21897000" />
     </task>
     <servers />
   </component>
