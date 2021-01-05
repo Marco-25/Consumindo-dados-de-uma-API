@@ -1,14 +1,4 @@
 
-const informacoesClientes = [
-    {
-        cpf: 18875539081,
-        nome: "Jairo"
-    },
-    {
-        cpf: 18875539081,
-        nome: "Monica"
-    },
-];
 
 const exibeCliente = (cpf, nome) => {
     const linha = document.createElement("tr"),
@@ -23,6 +13,10 @@ const exibeCliente = (cpf, nome) => {
 
 const corpoTabela = document.querySelector("[data-conteudo-tabela]");
 
-informacoesClientes.forEach(indice => {
-    corpoTabela.appendChild(exibeCliente(indice.cpf, indice.nome))
-})
+listarClientes().then( exibe => {
+    exibe.forEach(indice => {
+            corpoTabela.appendChild(exibeCliente(indice.cpf, indice.nome))
+        })
+    }
+
+)
